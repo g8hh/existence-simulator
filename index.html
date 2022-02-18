@@ -1,0 +1,98 @@
+<html>
+
+<head>
+    <title>存在模拟器 - Existence Simulator</title>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/nes.css@2.3.0/css/nes.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.83433967.css">
+</head>
+
+<body>
+<script src="chs.js?07071443"></script>
+<script src="https://cdn.jsdelivr.net/gh/g8hh/g8hh.github.io/zh/core.js"></script>
+    <h1 style="text-align:center">Existence Simulator</h1>
+    <p class="subtitle"><a href="https://www.twitter.com/jesseswords"><i class="is-small nes-icon twitter"></i> @jesseswords</a></p>
+    <div id="loading-container" style="position:absolute;left:25vw;top:25vh;">
+        <div class="is-centered is-rounded nes-container">
+            <h1>LOADING...</h1> </div>
+    </div>
+    <div id="mobile-notice">
+        <p>This game is meant to be played on desktop devices. Sorry.</p>
+    </div>
+    <div id="game-container" class="life-is-weird-isnt-it starts-hidden">
+        <div class="helptext-box is-dark is-rounded nes-container" style="margin:0 1em 1em 1em">
+            <p id="helpText"> Loading... </p>
+        </div>
+        <div id="sectionGameOver" class="nes-container starts-hidden with-title">
+            <p class="title">Existence Simulator</p>
+            <p> You no longer exist. </p>
+        </div>
+        <div class="nes-container with-title">
+            <p class="title">Existence Simulator</p>
+            <p> You are <span id="spanNumYearsOld"></span> years and <span id="spanNumDaysOld"></span> days old. </p>
+            <p>
+                <progress class="is-error nes-progress starts-hidden-takes-up-space" id="anxietyProgress" value="10" max="100">Panic Attack</progress>
+            </p>
+            <p>
+                <button id="ExistButton" type="button" class="is-warning nes-btn"> exist
+                    <br><small>+1 anxiety</small> </button> <span id="labelNumAnxiety" class="starts-hidden"> <span id="spanNumAnxiety"></span> anxiety </span>
+            </p>
+            <p id="sectionCry" class="starts-hidden">
+                <button id="CryButton" type="button" class="is-primary nes-btn"> cry </button> <span id="labelCryCost" class="starts-hidden"> <small>Lose <span id="spanCryCost"></span> anxiety now, but generate +1 anxiety/s</small>
+                </span>
+            </p>
+            <p id="sectionDoubt" class="starts-hidden">
+                <button id="DoubtButton" type="button" class="is-secondary nes-btn"> doubt
+                    <br><small>+0.1 missed opportunities</small> </button> <span> <small><span id="spanNumMissedOpportunities" class="starts-hidden"></span> <span id="labelMissedOpportunities" class="starts-hidden">missed opportunities</span></small>
+                </span>
+            </p>
+            <p id="sectionWork" class="starts-hidden"> <a id="WorkButton" type="button" class="nes-btn"> work </a> <span id="labelWork" style="display:inline"> <small>Generate money (you have $<span id="spanMoneyCount"></span>)</small>
+                </span>
+            </p>
+        </div>
+        <div id="sectionGenerating" class="nes-container starts-hidden with-title with-top-space">
+            <p class="title">generating</p>
+            <p><span id="labelAnxietyPerSecond" class="starts-hidden">Anxiety per second:</span> <span id="spanNumAnxietyPerSecond" class="starts-hidden"></span> </p>
+            <p><span id="labelMissedOpportunitiesPerSecond" class="starts-hidden">Missed opportunities per second:</span> <span id="spanNumMissedOpportunitiesPerSecond" class="starts-hidden"></span></p>
+        </div>
+        <div id="sectionMissedOpportunityStore" class="nes-container starts-hidden with-title with-top-space">
+            <p class="title">try your best</p>
+            <div id="upgradesContainer"> </div>
+            <div id="sectionShopping" class="starts-hidden">
+                <p>
+                    <button class="nes-btn" disabled>Take out a loan</button><small> Costs $200 in collateral. +$200.</small></p>
+                <p>
+                    <button class="nes-btn" disabled>Go to college</button><small> Costs $50,000 and 4,500 missed opportunities. +$1/s.</small></p>
+                <p>
+                    <button class="nes-btn" disabled>Buy a house</button><small> Costs $550,000. -500 anxiety/s.</small></p>
+                <p>
+                    <button class="nes-btn" disabled>Get a good job</button><small> Costs 990 anxiety and 5,500 missed opportunities. +$1/s.</small></p>
+            </div>
+        </div>
+    </div>
+    <div id="game-over-screen" class="is-centered nes-container starts-hidden" style="max-width:600px;margin:auto">
+        <p>You had a nervous breakdown at <span id="gameover-age"></span> years old.</p>
+        <menu class="dialog-menu">
+            <a href="index.html">
+                <button class="nes-btn">Okay</button>
+            </a>
+            <a href="index.html">
+                <button class="is-primary nes-btn">Thanks</button>
+            </a>
+        </menu>
+    </div>
+    <script src="app.59dc9d52.js"></script>
+<!--客服 开始-->
+<script src="https://cdn.jsdelivr.net/gh/g8hh/g8hh.github.io/static/js/jquery.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/g8hh/g8hh.github.io/static/css/kf.css" type="text/css" media="screen" charset="utf-8">
+<script src="https://cdn.jsdelivr.net/gh/g8hh/g8hh.github.io/static/js/kf.js"></script>
+<!-- 客服 结束 -->
+<!--站长统计-->
+    <div style="display: none">
+       <script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1280006740&web_id=1280006740"></script>
+    </div>
+</body>
+
+</html>
