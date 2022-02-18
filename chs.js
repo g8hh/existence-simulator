@@ -39,7 +39,7 @@ var cnItems = {
     "Completed": "已完成",
     "anxiety": "焦虑",
     "anxiety now, but generate +1 anxiety": " 焦虑现在，但产生 +1 焦虑",
-    "Anxiety per second": "每秒焦虑",
+    "Anxiety per second": "焦虑每秒",
     "Buy a house": "买房子",
     "Buy an NFT": "购买 NFT",
     "Costs $1,000.": "费用为 1,000 美元。",
