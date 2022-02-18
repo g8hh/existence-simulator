@@ -99,7 +99,7 @@ var cnItems = {
     "You're trying to sleep more, which is generating missed opportunities--but its getting harder to fall asleep, so you're generating more anxiety, too.": "你试图睡得更多，这会产生错失的机会——但它越来越难以入睡，所以你也会产生更多的焦虑。",
     "Your social anxiety goes down a bit, but now that you're doomscrolling everyday it's even harder to fall asleep and focus on things that matter (which is what again?": "你的社交焦虑稍微下降了一点，但现在你每天都在做末日卷轴，所以更难入睡并专注于重要的事情（这又是什么？",
     "Now you are really \"enjoying\" what life has to offer. Oh, what beauty it is to be human! Spend your missed opportunties by Trying your Best.": "现在你真的“享受”了生活所提供的一切。 哦，做人是多么美好啊！ 尽最大努力度过错过的机会。",
-    "": "",
+    "(thanks to your friend's referral code). Maybe you can earn more money?": "（感谢您朋友的推荐代码）。 也许你可以赚更多的钱？",
     "": "",
     "": "",
     "": "",
