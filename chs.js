@@ -85,7 +85,7 @@ var cnItems = {
     "years and": " 年",
     "years old.": "岁。",
     "You are": "你活了 ",
-    "You had a nervous breakdown at": "你在",
+    "You had a nervous breakdown at": "你精神崩溃了，在",
     "You no longer exist.": "你已经不存在了。",
     "As you exist, you generate anxiety. Try generating at least 10.": "当你存在时，你会产生焦虑。 尝试生成至少 10 个。",
     "Crying removes anxiety immediately--and increases the amount of anxiety you passively generate. Try generating 5 anxiety per second by Crying more.": "哭泣会立即消除焦虑——并增加你被动产生的焦虑程度。 尝试通过多哭，达到每秒产生 5 焦虑。",
